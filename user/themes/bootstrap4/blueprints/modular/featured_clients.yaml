@@ -1,0 +1,41 @@
+title: Featured Clients Block
+extends@: default
+
+form:
+  fields:
+
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+          title: PLUGIN_ADMIN.CONTENT
+
+          fields:
+            features:
+              type: section
+              title: Featured Clients
+              underline: true
+              fields:
+                header.clients:
+                  type: list
+                  label: Clients
+                  fields:
+                    .image:
+                      type: filepicker
+                      folder: '@self'
+                      description: add client logo
+                      preview_images: true
+                      acccept:
+                          - .png
+                          - .jpg
+                      label: Client Photo / Logo
+                      help: upload an image of the client logo
+                    .name:
+                      type: text
+                      label: Name
+
+
+

@@ -1,5 +1,5 @@
 <!--Section-->
-<section id="hero_youtube_intro" class="jarallax has-black-background-color">
+<section id="hero_youtube_intro">
 
 	{# <img class="jarallax-img" src="{{ page.media.images[page.header.backdrop].url }}" alt="" loading="lazy"> #}
 	<div class="row no-gutters">
@@ -55,4 +55,21 @@
 		</div>
 
 	</div>
+
+	<div class="container">
+		<div class="row justify-content-between align-items-center">
+			{% for item in page.header.clients %}
+			<div class="col-auto">
+				<div class="vlt-gap-50"></div>
+				<!--Animated block-->
+				<div class="vlt-animated-block" data-aos="fade" data-aos-delay="800">
+					<!--Partner-->
+					<div class="vlt-partner vlt-partner--center"><img src="{{ page.media.images[item.image].cropResize(300, 30).url }}" alt="{{item.name}}" loading="lazy" style="height:30px;">
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+
 </section>

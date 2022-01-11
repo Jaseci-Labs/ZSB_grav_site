@@ -67,3 +67,26 @@ form:
               label: Banner Screen Color
               size: small
               default: "#000000"
+              
+            features:
+              type: section
+              title: Featured Clients
+              underline: true
+              fields:
+                header.clients:
+                  type: list
+                  label: Clients
+                  fields:
+                    .image:
+                      type: filepicker
+                      folder: '@self'
+                      description: add client logo
+                      preview_images: true
+                      acccept:
+                          - .png
+                          - .jpg
+                      label: Client Photo / Logo
+                      help: upload an image of the client logo
+                    .name:
+                      type: text
+                      label: Name
