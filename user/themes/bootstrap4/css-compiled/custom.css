@@ -1,17 +1,18 @@
 html, body * {
-    color-scheme: dark;
+    color-scheme: light;
 }
 
 body, .vlt-site-preloader {
-    background: #000000 !important;
+    background: #ffffff !important;
 }
 
 .has-black-background-color, .vlt-footer {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .vlt-footer--style-2 {
     background-image: none;
+    color: #7c7c7c;
 }
 
 h1, h2, h3, h4, h5, h6, .vlt-nav--fullscreen__navigation>.sf-menu * {
@@ -111,8 +112,15 @@ blockquote {
 }
 
 #hero_youtube_intro p.subtext {
-    color: #b3b3b3;
+    color: #7c7c7c;
     max-width: 320px;
+}
+
+#hero_youtube_intro .vlt-video-button {
+    position: absolute;
+    z-index: 9999;
+    left: 40%;
+    top: 50%;
 }
 
 @media only screen and (max-width: 991px) {

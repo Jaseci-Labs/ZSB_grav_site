@@ -34,5 +34,6 @@ testimonials:
         content: 'Partnering with ZeroShotBot has allowed our start-up to scale rapidly upon launch, insuring that customer inquiries are managed instantly and 24/7.'
 cache_enable: false
 media_order: 'egenra_logo.png,AlternateLogo.png,myca_black.png,FBH_logo.png,logo-inner-1.png,bcs_logo_black.png'
+published: false
 ---
 

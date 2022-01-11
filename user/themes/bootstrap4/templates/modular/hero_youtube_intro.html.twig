@@ -1,25 +1,25 @@
 <!--Section-->
-<section id="hero_youtube_intro" class="jarallax has-white-color has-black-background-color">
+<section id="hero_youtube_intro" class="jarallax has-black-background-color">
 
-	<img class="jarallax-img" src="{{ page.media.images[page.header.backdrop].url }}" alt="" loading="lazy">
+	{# <img class="jarallax-img" src="{{ page.media.images[page.header.backdrop].url }}" alt="" loading="lazy"> #}
 	<div class="row no-gutters">
 		<div class="col-lg-6 vlt-column-space-to-container d-flex align-items-center to-left">
 			<div>
 				{# <!--Particle image--><img class="vlt-particle" src="{{ url('theme://images/root/square-plus-pattern.png') }}" data-animation-name="zoomIn" alt="" style="position: absolute; bottom: 50px; right: 0; max-width: 220px;opacity:0.1" loading="lazy"> #}
 
 				<!--Animated block-->
-					<div class="vlt-animated-block" data-aos="fade" data-aos-delay="100"> <h6 class="has-white-color">{{ page.header.smallHeading }}</h6>
+					<div class="vlt-animated-block" data-aos="fade" data-aos-delay="100"> <h6>{{ page.header.smallHeading }}</h6>
 				</div>
 
 				<!--Animated block-->
 				<div class="vlt-animated-block">
 					<div
-						style="color: #2F2F2F;">
+						style="color: #d9d9d9;">
 						<!--Stroke text-->
 						<div class="vlt-stroke-text vlt-stroke-text--lg" data-aos="fade-right" data-aos-delay="200">ZSB
 						</div>
 					</div>
-					<h2 class="negative-top-offset has-white-color" data-aos="fade-left" data-aos-delay="250">{{page.header.heading}}</h2>
+					<h2 class="negative-top-offset" data-aos="fade-left" data-aos-delay="250">{{page.header.heading}}</h2>
 				</div>
 				<div class="vlt-gap-20"></div>
 				<!--Animated block-->
@@ -34,25 +34,25 @@
 					{% if page.header.isCustomButton %}
 						{{ page.header.buttonSource | raw}}
 					{% else %}
-					<a class="vlt-btn vlt-btn--tertiary vlt-btn--md" href="{{page.header.buttonUrl}}" target="{{page.header.buttonTarget}}">{{page.header.buttonText}}</a>
+					<a class="vlt-btn vlt-btn--primary vlt-btn--md" href="{{page.header.buttonUrl}}" target="{{page.header.buttonTarget}}">{{page.header.buttonText}}</a>
 					{% endif %}
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-lg-6 d-flex align-items-center justify-content-center">
-			{# <img class="vlt-column-space-to-container" src="{{ url('theme://images/root/zsb-ipad.png') }}" data-aos="fade-left" data-aos-delay="500" alt="" style="width:100%" loading="lazy"> #}
+			
 			<div class="to-right">
+				<img class="vlt-column-space-to-container" src="{{ page.media.images[page.header.backdrop].url }}" alt="" data-aos="fade-left" data-aos-delay="500" alt="" style="width:100%" loading="lazy">
 				<!--Video button-->
-				<div class="vlt-video-button vlt-particle" data-aos="zoom-in" data-aos-delay="1000">
+				{# <div class="vlt-video-button vlt-particle" data-aos="zoom-in" data-aos-delay="1000">
 					<a href="{{ page.header.videoUrl }}" data-fancybox data-small-btn="true" rel="nofollow">
 						<i class="icon-play"></i>
 					</a>
 					<h6>Find Out More</h6>
-				</div>
+				</div> #}
 			</div>
 		</div>
 
 	</div>
-	<zeroshot-bot textColor="#fff" color="#202225" height="410px" bot="U2FsdGVkX1+6R/WT+KmoZaekcAN7mLIypcb1LjG9KL39JxwydxFs6aGkRQDUraBUcGJbpW+Ou2c2tUVxi607T8yy4EIEKiUO6ZPUHAXHNuyXhf93g1WjuLAnp3WoM4PJhinQjv2O4x7Hfs47zyLudWw9TChNFS925iwYqtNUqSzWQ9ABQC4JK50mcw78IVbYnZIYPNe6+IFRnWFIuJLgOgq7Qux64bPU+xTpab2PCi/pICUaYPWZzdQcoj4QmcDZwB5dC8jELg0oftnsynGnm2q6JrN+BLxETyuYNBiDJzEuT5BEN1B402cg9nqDuU1+p8MEjcFGewoPTxcMKknANqdRPhJrs14X6ceWL1Ob1HDMBi/jbAup+mbWuAzlYIY3kR0BY/+6JWWTt4DVYUZSOowLqjY7CoFG/js96Mzh2wo="></zeroshot-bot>
 </section>

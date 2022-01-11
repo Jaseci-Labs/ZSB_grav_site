@@ -5,7 +5,7 @@
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
 {% set first_module = page.collection()|first %}
-{% if first_module.name == 'hero.md' or first_module.name == 'hero_slider.md' or first_module.name == 'video_hero.md' or first_module.name == 'slide_deck.md' or first_module.name == 'hero_youtube_intro.md' %} 
+{% if first_module.name == 'hero.md' or first_module.name == 'hero_slider.md' or first_module.name == 'video_hero.md' or first_module.name == 'slide_deck.md' %} 
    {% set header_style = 'light' %}
 {% else %}
     {% set header_style = 'dark' %}

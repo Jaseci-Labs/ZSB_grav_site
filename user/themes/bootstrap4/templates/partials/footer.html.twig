@@ -3,15 +3,15 @@
 {% if isFooterVisible %}
 <footer class="vlt-footer vlt-footer--style-2 vlt-footer--fixed text-lg-left text-center">
     <div class="container position-relative">
-        <!--Particle image--><img src="{{ url('theme://images/root/square-plus-pattern.png') }}" alt="" style="position: absolute; bottom: 50px; left: 0px; z-index:-1; opacity:0.1; max-width: 210px;" loading="lazy">
+        <!--Particle image--><img src="{{ url('theme://images/root/square-plus-pattern.png') }}" alt="" style="position: absolute; bottom: 50px; left: 0px; z-index:-1; max-width: 210px;" loading="lazy">
         <div class="row">
             <div class="col-lg-3">
                 <!--Widget-->
-                <div class="vlt-widget vlt-widget--html vlt-widget--white"><a href="{{ base_url == '' ? '/' : base_url }}"><img src="{{ url('theme://images/logo/' ~ logo_file) }}" alt="{{ logo_file }}"  alt="" style="height: 30px;" loading="lazy"></a></div>
+                <div class="vlt-widget vlt-widget--html"><a href="{{ base_url == '' ? '/' : base_url }}"><img src="{{ url('theme://images/logo/' ~ logo_file) }}" alt="{{ logo_file }}"  alt="" style="height: 30px;" loading="lazy"></a></div>
             </div>
             <div class="col-lg-2 col-sm-6">
                 <!--Widget-->
-                <div class="vlt-widget vlt-widget--text vlt-widget--white">
+                <div class="vlt-widget vlt-widget--text">
                     <ul>
                         {% for page in pages.children.visible %}
                         {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
@@ -22,7 +22,7 @@
             </div>
             <div class="col-lg-2 col-sm-6">
                 <!--Widget-->
-                <div class="vlt-widget vlt-widget--text vlt-widget--white">
+                <div class="vlt-widget vlt-widget--text">
                     <ul>
                     {% for item in theme_var('footer-social') %}
                         <li>
@@ -37,13 +37,13 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <!--Widget-->
-                <div class="vlt-widget vlt-widget--text vlt-widget--white">
+                <div class="vlt-widget vlt-widget--text">
                     <p>{{ theme_var('footer-address') | markdown}}</p>
                 </div>
             </div>
             <div class="col-lg-2 col-sm-6">
                 <!--Widget-->
-                <div class="vlt-widget vlt-widget--text vlt-widget--white"><a href="mailto:{{ theme_var('footer-contact') }}">{{ theme_var('footer-contact') }}</a></div>
+                <div class="vlt-widget vlt-widget--text"><a href="mailto:{{ theme_var('footer-contact') }}">{{ theme_var('footer-contact') }}</a></div>
             </div>
         </div>
         <div class="row">

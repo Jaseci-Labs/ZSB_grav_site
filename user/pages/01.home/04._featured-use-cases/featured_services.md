@@ -10,6 +10,7 @@ content:
         dir: desc
 smallTitle: ZeroShotBot
 cache_enable: false
+published: false
 ---
 
 In the next few years, spending on AI research and development is predicted to grow to over $58 million, as more businesses discover and harness its potential to revolutionise business processes.

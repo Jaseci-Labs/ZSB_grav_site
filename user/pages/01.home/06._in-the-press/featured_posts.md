@@ -10,5 +10,6 @@ content:
         by: date
         dir: desc
 smallTitle: 'Stay updated with our latest news and activities'
+published: false
 ---
 
