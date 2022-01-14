@@ -62,6 +62,14 @@ form:
               accept:
                 - .png
                 - .jpg
+            header.graphic:
+              type: filepicker
+              folder: "@self"
+              label: Select header graphic image
+              preview_images: true
+              accept:
+                - .png
+                - .jpg
             header.backgroundScreenColor:
               type: colorpicker
               label: Banner Screen Color

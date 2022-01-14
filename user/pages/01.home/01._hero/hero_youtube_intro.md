@@ -9,8 +9,8 @@ buttonUrl: 'https://portal.zeroshotbot.com/signup'
 videoURL: 'https://youtu.be/-ulWXCq-cmI'
 backgroundScreenColor: '#000000'
 cache_enable: false
-media_order: 'zero_training.jpg,44714365_l-1-1024x683.jpg,salinero-vEE00Hx5d0Q.jpg,op-background-tech-1.jpg,paul-frenzel-MnHQMzC6n-o-unsplash.jpg,Ai Inteligence.png,Virtual Assistant.png,AlternateLogo.png,FBH_logo.png,myca_black.png,RentmyboatLogo_white.png,egenra_logo.png,bcs_logo_black.png,iso_zsb-01.png,iso_zsb-02.png'
-backdrop: iso_zsb-02.png
+media_order: 'zero_training.jpg,44714365_l-1-1024x683.jpg,salinero-vEE00Hx5d0Q.jpg,op-background-tech-1.jpg,paul-frenzel-MnHQMzC6n-o-unsplash.jpg,Ai Inteligence.png,Virtual Assistant.png,AlternateLogo.png,FBH_logo.png,myca_black.png,RentmyboatLogo_white.png,egenra_logo.png,bcs_logo_black.png,iso_zsb-01.png,iso_zsb-02.png,bg.png'
+backdrop: bg.png
 videoUrl: 'https://youtu.be/-ulWXCq-cmI'
 buttonTarget: _blank
 isCustomButton: 'true'
@@ -31,5 +31,6 @@ clients:
     -
         image: RentmyboatLogo_white.png
         name: RentMyBoat
+graphic: iso_zsb-02.png
 ---
 

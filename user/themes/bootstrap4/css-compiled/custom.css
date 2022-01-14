@@ -26,27 +26,38 @@ h1, h2, h3, h4, h5, h6, .vlt-nav--fullscreen__navigation>.sf-menu * {
 }
 
 .vlt-nav--offcanvas__navigation ul.sf-menu>li:hover>a, .vlt-nav--slide__navigation ul.sf-menu>li:hover>a, .vlt-nav--offcanvas__navigation ul.sf-menu>li.current-menu-item>a, .vlt-nav--slide__navigation ul.sf-menu>li.current-menu-item>a, .vlt-nav--offcanvas__navigation ul.sf-menu ul.sub-menu>li:hover>a, .vlt-nav--slide__navigation ul.sf-menu ul.sub-menu>li:hover>a, .vlt-nav--offcanvas__navigation ul.sf-menu ul.sub-menu>li.current-menu-item>a, .vlt-nav--slide__navigation ul.sf-menu ul.sub-menu>li.current-menu-item>a, .has-primary-color, p a, a:hover, .vlt-nav--default .sf-menu>li:hover>a, .vlt-nav--default .sf-menu>li.sfHover>a, .vlt-nav--default .sf-menu>li.current-menu-item>a, .vlt-header--dark .vlt-nav--default .sf-menu ul.sub-menu li:hover>a, .vlt-header--dark .vlt-nav--default .sf-menu ul.sub-menu li.current-menu-item>a, .vlt-header--dark .vlt-nav--default .sf-menu ul.sub-menu li.sfHover>a, .vlt-nav--fullscreen__navigation ul.sf-menu li:hover>a, .vlt-nav--fullscreen__navigation ul.sf-menu li.current-menu-item>a, .vlt-widget--search .vlt-search-form button:hover, .vlt-project-showcase--style-6 .vlt-project-showcase__number, .vlt-subscribe-form button:hover, .vlt-isotope-filters li.active, .vlt-isotope-filters li:hover, .vlt-countdown, .vlt-section-title--style-1 .vlt-section-title__subtitle {
-    color: #2e56e8;
+    color: #37b1ae;
 }
 
+.vlt-btn--primary {
+    background: url(../images/root/button_bg.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    margin: 0;
+}
+
+
+
 .vlt-btn--primary, .has-primary-background-color, .vlt-custom--6188::after, mark, blockquote.pullquote::after, .vlt-nav--default .sf-menu>li>a span::after, .vlt-post--style-3:hover .vlt-post__content, .vlt-project-showcase--style-5 .vlt-project-showcase__footer .vlt-simple-link, .vlt-project-showcase--style-5 .vlt-project-showcase__footer .vlt-simple-link::before, ::-webkit-scrollbar-thumb, .fancybox-navigation .fancybox-button:hover, .fancybox-toolbar .fancybox-button:hover, .fancybox-content .fancybox-button:hover, .vlt-btn--primary, .vlt-btn--secondary span, .vlt-btn--tertiary, .vlt-pricing-table__content ul li.active i, .vlt-proccess__number, .vlt-progress-bar__bar span, .vlt-styled-list--style-1 li i, .vlt-styled-list--style-2 li::before, .vlt-styled-list--style-3 li::before, .vlt-team-member--style-1 .vlt-team-member__socials, .vlt-team-member--style-2 .vlt-team-member__socials {
-    background-color: #2e56e8;
+    background-color: #37b1ae;
 }
 
 blockquote {
-    border-left: 3px solid #2e56e8;
+    border-left: 3px solid #37b1ae;
 }
 
 .fancybox-loading {
-    border-top-color: #2e56e8;
+    border-top-color: #37b1ae;
 }
 
 .vlt-team-list a {
-    border: 6px solid #2e56e8;
+    border: 6px solid #37b1ae;
 }
 
 .vlt-work--style-3 .vlt-work__meta, .vlt-work--style-6 .vlt-work__meta {
-    background-color: rgba(46, 86, 232, .6);
+    background-color: #37b1ae75;
 }
 
 .vlt-project-showcase--style-7 .vlt-project-showcase__item::after, .vlt-project-showcase--style-7 .vlt-project-showcase__item::before {
